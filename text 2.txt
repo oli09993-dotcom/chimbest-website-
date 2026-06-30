@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chimbest Kiddies Wears</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#fdfdfd;
+color:#333;
+}
+
+header{
+background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),url("https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=1500&q=80");
+background-size:cover;
+background-position:center;
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:60px;
+}
+
+.hero p{
+font-size:20px;
+margin:20px auto;
+max-width:700px;
+}
+
+.btn{
+display:inline-block;
+background:#ff4d6d;
+padding:15px 35px;
+border-radius:40px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+background:#e63956;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:white;
+padding:18px;
+display:flex;
+justify-content:center;
+gap:40px;
+box-shadow:0 2px 15px rgba(0,0,0,.1);
+z-index:999;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-weight:600;
+}
+
+section{
+padding:80px 10%;
+}
+
+h2{
+text-align:center;
+margin-bottom:40px;
+font-size:38px;
+color:#ff4d6d;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 8px 20px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+height:300px;
+object-fit:cover;
+}
+
+.card-content{
+padding:20px;
+text-align:center;
+}
+
+.card-content h3{
+margin-bottom:10px;
+}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:20px;
+}
+
+.testimonials{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.review{
+background:#fff5f7;
+padding:25px;
+border-radius:15px;
+}
+
+.contact{
+background:#ff4d6d;
+color:white;
+text-align:center;
+border-radius:20px;
+}
+
+footer{
+background:#222;
+color:white;
+padding:25px;
+text-align:center;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:16px 22px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 8px 20px rgba(0,0,0,.25);
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#">Home</a>
+<a href="#products">Products</a>
+<a href="#about">About</a>
+<a href="#reviews">Reviews</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<header>
+
+<div class="hero">
+<h1>CHIMBEST</h1>
+
+<p>Beautiful, quality and affordable kiddies & children's fashion. From newborns to growing kids, we help your little stars look their best every day.</p>
+
+<a class="btn" href="#products">Shop Collection</a>
+
+</div>
+
+</header>
+
+<section id="products">
+
+<h2>Featured Collections</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?auto=format&fit=crop&w=700&q=80">
+<div class="card-content">
+<h3>Baby Collection</h3>
+<p>Soft, comfortable and adorable outfits.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80">
+<div class="card-content">
+<h3>Girls Fashion</h3>
+<p>Elegant dresses and trendy outfits.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=700&q=80">
+<div class="card-content">
+<h3>Boys Fashion</h3>
+<p>Smart casual and special occasion wears.</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>Why Shop With Chimbest?</h2>
+
+<div class="about">
+
+<div>
+<h3>Style Meets Comfort</h3>
+
+<p>At <strong>Chimbest Kiddies Wears</strong>, we carefully select fashionable and durable clothing for babies, toddlers and children. Every outfit is chosen with comfort, quality and affordability in mind.</p>
+
+<br>
+
+<p><strong>📍 Location:</strong><br>
+Opposite Rd 1, Imo Housing Estate.</p>
+
+</div>
+
+<img src="https://images.unsplash.com/photo-1515488764276-beab7607c1e6?auto=format&fit=crop&w=900&q=80">
+
+</div>
+
+</section>
+
+<section id="reviews">
+
+<h2>What Customers Say</h2>
+
+<div class="testimonials">
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>"Beautiful clothes and excellent customer service. My children love every outfit."</p>
+<br>
+<strong>— Grace A.</strong>
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>"Affordable prices and quality materials. Highly recommended."</p>
+<br>
+<strong>— Esther O.</strong>
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>"One of the best children's clothing stores around."</p>
+<br>
+<strong>— Daniel C.</strong>
+</div>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>Visit Our Store</h2>
+
+<p><strong>CHIMBEST KIDDIES WEARS</strong></p>
+
+<p>📍 Opposite Rd 1, Imo Housing Estate</p>
+
+<p>📞 WhatsApp: +234 XXX XXX XXXX</p>
+
+<p>Open Monday – Saturday</p>
+
+<p>8:00 AM – 6:00 PM</p>
+
+</section>
+
+<footer>
+
+© 2026 Chimbest Kiddies Wears. All Rights Reserved.
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/234XXXXXXXXXX">
+Chat on WhatsApp
+</a>
+
+</body>
+</html>
